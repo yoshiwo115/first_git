@@ -1,0 +1,113 @@
+
+header{
+	background-color: pink;
+	text-align: right;/*右揃え*/
+	padding: 1.5%;
+	margin: 0;
+	background-size: cover;
+	background-position: 50% 50%;/*拡大したとき中央を基準に拡大する*/
+	margin-bottom: 0;/*headerの下に空白*/
+	color: white;
+}
+
+body {
+	background-color: #ffe4d4;
+	
+}
+
+li{
+	display: inline-block;/*左揃え*/
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	/*padding: 4px 8px(省略書き)*/
+	
+	font-size: 20px;
+}
+
+li > a{
+	text-decoration: none; /*リンクの下線を消す*/
+	color: inherit; /*上位タグの設定を引き継ぐ*/
+}
+
+li > a:hover{/*aにマウスカーソルが乗ったとき*/
+	color: red;
+}
+
+header img{
+	color: red;
+}
+
+header ul{/*header内の*/
+	margin: 0px;
+	list-style-type: none;/*消すコマンド,ここではくろぽち*/
+	padding-left: 0;
+}
+
+.top {
+	/*color: rgb(0,255,0);/red,green,blue混ぜれる
+	color: #0000ff;/16進数でも表せる*/
+	color: #125;/*000が真っ黒、FFFが真っ白*/	
+	font-size: 50px;
+	text-align: left;
+}
+
+.section1{
+	text-align: center;
+	margin: 30px;
+	font-size: 50px;
+}
+
+.icon{
+	border-radius: 70px;/*丸める*/	
+	border-color: pink;
+	border-width: 10px;
+	border-style: solid;
+	/*省略border: 5px solid pink;*/
+	
+	box-shadow: 0px 0px 15px black;/*影を表す　引数1,x方向のずれ　2,y方向　3,ぼかし具合*/
+	
+}
+
+.section2{
+	/*color: rgb(0,255,0);/red,green,blue混ぜれる
+	color: #0000ff;/16進数でも表せる*/
+	color: #125;/*000が真っ黒、FFFが真っ白*/	
+	font-size: 50px;
+	text-align: light;
+	padding: 100px;
+}
+
+.section2 img{
+	float: left;
+	padding-right: 50px;
+}
+
+body{
+	margin-top: 0px;/*空白を消す*/
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	/*margin 0px;/上の4っつを簡単に書ける*/
+	
+}
+
+footer{
+	background-color: pink;
+	color: #ff0000;
+	font-family: Verdana, sans-serif;/*フォントVerがなかったらsans*/
+	padding: 1.5%;
+}
+
+footer p{
+	text-align: right;
+}
+
+img{
+	object-fit: cover;
+	max-width: 100%;
+	height: auto;
+}
+
+/*margin-left: auto;　右揃え　　＋　　margin-right: auto; 左揃え　　= 中央ぞろえ*/

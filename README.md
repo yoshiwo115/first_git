@@ -1,2 +1,3 @@
-# it_practice
+# first_git
+
 初めてのおGIT
